@@ -1,0 +1,15 @@
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog/vendor/cache/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/home/linuxbrew/.linuxbrew/opt/ruby/bin/ruby -I /home/linuxbrew/.linuxbrew/Cellar/ruby/3.0.2/lib/ruby/3.0.0 -r ./siteconf20210913-16613-8fd6oy.rb extconf.rb
+creating Makefile
+
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog/vendor/cache/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog/vendor/cache/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog/vendor/cache/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20210913-16613-bfnnsz

@@ -1,0 +1,15 @@
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog/vendor/cache/ruby/2.7.0/gems/bootsnap-1.8.1/ext/bootsnap
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20210913-7793-1scesjf.rb extconf.rb
+creating Makefile
+
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog/vendor/cache/ruby/2.7.0/gems/bootsnap-1.8.1/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog/vendor/cache/ruby/2.7.0/gems/bootsnap-1.8.1/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog/vendor/cache/ruby/2.7.0/gems/bootsnap-1.8.1/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20210913-7793-183vyh7/bootsnap
