@@ -1,30 +1,107 @@
+$navbar-default-bg: black;
 
-.flickr_pagination {
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.center {
   text-align: center;
-  padding: 0.3em;
-  cursor: default; }
-  .flickr_pagination a, .flickr_pagination span, .flickr_pagination em {
-    padding: 0.2em 0.5em; }
-  .flickr_pagination .disabled {
-    color: #aaaaaa; }
-  .flickr_pagination .current {
-    font-style: normal;
-    font-weight: bold;
-    color: #ff0084; }
-  .flickr_pagination a {
-    border: 1px solid #dddddd;
-    color: #0063dc;
-    text-decoration: none; }
-    .flickr_pagination a:hover, .flickr_pagination a:focus {
-      border-color: #003366;
-      background: #0063dc;
-      color: white; }
-  .flickr_pagination .page_info {
-    color: #aaaaaa;
-    padding-top: 0.8em; }
-  .flickr_pagination .previous_page, .flickr_pagination .next_page {
-    border-width: 2px; }
-  .flickr_pagination .previous_page {
-    margin-right: 1em; }
-  .flickr_pagination .next_page {
-    margin-left: 1em; }
+}
+
+.jumbotron {
+  background-image: asset-url('new_cover_page.png');
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: black;
+}
+
+.article-meta-details {
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px; 
+}
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.listing {
+  list-style: none;
+  padding-left: 0;
+}
+
+.badge {
+  background-color: #CEF6F5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
