@@ -1,4 +1,16 @@
 <h1>Hello !</h1>
 <%= link_to 'Articles listing', articles_path %>
 <%= link_to 'Sign Up', signup_path %>
-<%= link_to 'About Page', about_path %>
+<%= link_to 'About Page', about_path%>
+<% if logged_in? %>
+  <div>
+    <%= link_to "View your profile", user_path(current_user) %>
+    <%= link_to "Edit your profile", edit_user_path(current_user) %>
+    <%= link_to "Delete profile", user_path(current_user), method: :delete %>
+  </div>
+  Profile [<% current_user.username %>] 
+  <%= link_to current_user.username, user_path(current_user) %>
+  <%= link_to 'Log Out', logout_path, method: :delete, data: { confirm: "Are you sure?" }  %>
+<% else %>
+  <%= link_to 'Log In', login_path  %>
+<% end %>

@@ -1,0 +1,22 @@
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th colspan="3">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @articles.each do |article| %>
+      <tr>
+        <td><%= article.title %></td>
+        <td><%= article.description %></td>
+        <td><%= link_to 'Show', article_path(article) %></td>
+        <% if logged_in? && ( article.user == current_user || current_user.admin?  )   %>
+          <td><%= link_to 'Delete', article_path(article), method: :delete, data: { confirm: "Are you sure?" } %></td>
+          <td><%= link_to 'Edit', edit_article_path(article) %></td>
+        <% end %>
+      </tr>
+    <% end %>
+    <tbody>
+    </table>
