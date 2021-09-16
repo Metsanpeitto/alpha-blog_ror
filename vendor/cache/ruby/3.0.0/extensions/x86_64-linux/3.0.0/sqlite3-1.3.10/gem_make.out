@@ -1,0 +1,44 @@
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog-files/alpha-blog/vendor/cache/ruby/3.0.0/gems/sqlite3-1.3.10/ext/sqlite3
+/home/jarri/.rvm/rubies/ruby-3.0.2/bin/ruby -I /home/jarri/.rvm/rubies/ruby-3.0.2/lib/ruby/site_ruby/3.0.0 -r ./siteconf20210915-24229-ar6vsx.rb extconf.rb
+checking for sqlite3.h... *** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/jarri/.rvm/rubies/ruby-3.0.2/bin/$(RUBY_BASE_NAME)
+	--with-sqlite3-dir
+	--without-sqlite3-dir
+	--with-sqlite3-include
+	--without-sqlite3-include=${sqlite3-dir}/include
+	--with-sqlite3-lib
+	--without-sqlite3-lib=${sqlite3-dir}/lib
+/home/jarri/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0/mkmf.rb:471:in `try_do': The compiler failed to generate an executable file. (RuntimeError)
+You have to install development tools first.
+	from /home/jarri/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0/mkmf.rb:613:in `try_cpp'
+	from /home/jarri/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0/mkmf.rb:1177:in `block in find_header'
+	from /home/jarri/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0/mkmf.rb:971:in `block in checking_for'
+	from /home/jarri/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0/mkmf.rb:361:in `block (2 levels) in postpone'
+	from /home/jarri/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0/mkmf.rb:331:in `open'
+	from /home/jarri/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0/mkmf.rb:361:in `block in postpone'
+	from /home/jarri/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0/mkmf.rb:331:in `open'
+	from /home/jarri/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0/mkmf.rb:357:in `postpone'
+	from /home/jarri/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0/mkmf.rb:970:in `checking_for'
+	from /home/jarri/.rvm/rubies/ruby-3.0.2/lib/ruby/3.0.0/mkmf.rb:1176:in `find_header'
+	from extconf.rb:30:in `<main>'
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog-files/alpha-blog/vendor/cache/ruby/3.0.0/extensions/x86_64-linux/3.0.0/sqlite3-1.3.10/mkmf.log
+
+extconf failed, exit code 1

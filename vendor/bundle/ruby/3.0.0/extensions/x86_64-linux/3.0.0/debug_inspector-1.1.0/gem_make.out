@@ -1,0 +1,16 @@
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog-files/alpha-blog/vendor/bundle/ruby/3.0.0/gems/debug_inspector-1.1.0/ext/debug_inspector
+/home/jarri/.rvm/rubies/ruby-3.0.2/bin/ruby -I /home/jarri/.rvm/rubies/ruby-3.0.2/lib/ruby/site_ruby/3.0.0 -r ./siteconf20210916-7851-ytvh9a.rb extconf.rb
+creating Makefile
+
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog-files/alpha-blog/vendor/bundle/ruby/3.0.0/gems/debug_inspector-1.1.0/ext/debug_inspector
+make DESTDIR\= clean
+
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog-files/alpha-blog/vendor/bundle/ruby/3.0.0/gems/debug_inspector-1.1.0/ext/debug_inspector
+make DESTDIR\=
+compiling debug_inspector.c
+gcc: error: unrecognized command line option '-Wduplicated-cond'
+gcc: error: unrecognized command line option '-Wmisleading-indentation'
+gcc: error: unrecognized command line option '-Wimplicit-fallthrough=0'
+make: *** [Makefile:245: debug_inspector.o] Error 1
+
+make failed, exit code 2

@@ -1,0 +1,16 @@
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog-files/alpha-blog/vendor/cache/ruby/3.0.0/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+/home/jarri/.rvm/rubies/ruby-3.0.2/bin/ruby -I /home/jarri/.rvm/rubies/ruby-3.0.2/lib/ruby/site_ruby/3.0.0 -r ./siteconf20210915-24229-khwrz.rb extconf.rb
+creating Makefile
+
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog-files/alpha-blog/vendor/cache/ruby/3.0.0/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make DESTDIR\= clean
+
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog-files/alpha-blog/vendor/cache/ruby/3.0.0/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make DESTDIR\=
+compiling binding_of_caller.c
+gcc: error: unrecognized command line option '-Wduplicated-cond'
+gcc: error: unrecognized command line option '-Wmisleading-indentation'
+gcc: error: unrecognized command line option '-Wimplicit-fallthrough=0'
+make: *** [Makefile:245: binding_of_caller.o] Error 1
+
+make failed, exit code 2
