@@ -1,16 +1,13 @@
-current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog-files/alpha-blog/vendor/bundle/ruby/3.0.0/gems/json-1.8.6/ext/json/ext/generator
-/home/jarri/.rvm/rubies/ruby-3.0.2/bin/ruby -I /home/jarri/.rvm/rubies/ruby-3.0.2/lib/ruby/site_ruby/3.0.0 -r ./siteconf20210916-17120-fwy1cb.rb extconf.rb
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog-files/alpha-blog/vendor/bundle/ruby/3.0.0/gems/json-1.8.6/ext/json
+/home/jarri/.rvm/rubies/ruby-3.0.1/bin/ruby -I /home/jarri/.rvm/rubies/ruby-3.0.1/lib/ruby/3.0.0 -r ./siteconf20210916-57432-diuvlk.rb extconf.rb
 creating Makefile
 
-current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog-files/alpha-blog/vendor/bundle/ruby/3.0.0/gems/json-1.8.6/ext/json/ext/generator
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog-files/alpha-blog/vendor/bundle/ruby/3.0.0/gems/json-1.8.6/ext/json
 make DESTDIR\= clean
 
-current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog-files/alpha-blog/vendor/bundle/ruby/3.0.0/gems/json-1.8.6/ext/json/ext/generator
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog-files/alpha-blog/vendor/bundle/ruby/3.0.0/gems/json-1.8.6/ext/json
 make DESTDIR\=
-compiling generator.c
-gcc: error: unrecognized command line option '-Wduplicated-cond'
-gcc: error: unrecognized command line option '-Wmisleading-indentation'
-gcc: error: unrecognized command line option '-Wimplicit-fallthrough=0'
-make: *** [Makefile:245: generator.o] Error 1
+make: Nothing to be done for 'all'.
 
-make failed, exit code 2
+current directory: /home/jarri/Desktop/Web/Rails/udemy_course/alpha-blog-files/alpha-blog/vendor/bundle/ruby/3.0.0/gems/json-1.8.6/ext/json
+make DESTDIR\= install
